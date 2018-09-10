@@ -1,0 +1,52 @@
+body {
+	margin: 2em;
+	font-family: Verdana;
+	background-color: #6D1E5A;
+}
+h1 {
+	 text-align: center;
+	 color: #DF7CC7; 
+	 font-family: Verdana;
+	 font-size: 140px
+}
+h2 {
+	 text-align: center;
+	 color: #DF7CC7;
+	 padding-bottom: 40px;
+}
+
+.verse1 {
+	text-align: center;
+	color: #B54299
+}
+
+.verse2 {
+	text-align: center;
+	color: #B54299
+}
+
+.chorus {
+	text-align: center;
+	color: #F06700
+}
+
+.verse3 {
+	text-align: center;
+	color: #B54299
+}
+
+.verse4 {
+	text-align: center;
+	color: #B54299
+}
+
+.verse5 {
+	text-align: center;
+	color: #B54299
+}
+
+.headers{
+	 color: #DF7CC7;
+	 text-align: center;
+	 font-style: italic
+}
