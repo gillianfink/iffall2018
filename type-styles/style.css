@@ -1,0 +1,67 @@
+html {
+	font-size: 16pt;
+}
+
+body {
+	font-family: 'Crimson Text', serif;
+	font-size: 24px;
+}
+
+h1 {
+
+}
+
+h2 {
+	font-size: 16px;
+}
+
+.header {
+	color: rgb(50, 50, 50, 0.5);
+	font-family: Arial;
+}
+
+.fontweight2 {
+	font-weight: bold;
+}
+
+.subheader {
+	font-size: 14px;
+	color: rgb(50, 50, 50, 0.5);
+	font-family: Arial
+}
+
+.fontstyle2 {
+	font-style: italic;
+}
+
+.letterspacing2 {
+	letter-spacing: .3em;
+}
+
+.letterspacing3 {
+	letter-spacing: -.06em;
+}
+
+.textdec2 {
+	text-decoration: underline;
+}
+
+.textdec3 {
+	text-decoration: line-through;
+}
+
+.textdec4 {
+	text-decoration: overline;
+}
+
+.texttransform2 {
+	text-transform: uppercase;
+}
+
+.texttransform3 {
+	text-transform: lowercase;
+}
+
+.texttransform4 {
+	text-transform: capitalize;
+}
