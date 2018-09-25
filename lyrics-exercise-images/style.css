@@ -1,0 +1,68 @@
+body {
+	margin: 2em;
+	font-family: Verdana;
+	background-color: #6D1E5A;
+	background-image: url(images/gratefuldead.jpg);
+}
+
+h1 {
+	 text-align: center;
+	 color: #DF7CC7; 
+	 font-family: 'Chewy', cursive;
+	 letter-spacing: .15em;
+	 font-size: 100pt
+	}
+
+h2 {
+	 text-align: center;
+	 color: #DF7CC7;
+	 padding-top: 100px;
+	 padding-bottom: 40px;
+	 letter-spacing: .2em;
+}
+
+img {
+	width: 20rem;
+	position: absolute;
+    top: 0; bottom:0; left: 0; right:0;
+    margin: auto;
+    padding-bottom: 100px; 
+}
+
+.verse1 {
+	text-align: center;
+	color: #B54299
+}
+
+.verse2 {
+	text-align: center;
+	color: #B54299
+}
+
+.chorus {
+	letter-spacing: .3em;
+	text-align: center;
+	color: #F06700
+}
+
+.verse3 {
+	text-align: center;
+	color: #B54299
+}
+
+.verse4 {
+	text-align: center;
+	color: #B54299
+}
+
+.verse5 {
+	text-align: center;
+	color: #B54299
+}
+
+.headers{
+	 color: #DF7CC7;
+	 text-align: center;
+	 font-style: italic;
+	 text-transform: uppercase;
+}
