@@ -1,0 +1,124 @@
+header h1 {
+	font-family: 'Archivo Narrow', sans-serif;
+    padding-top: 100px;
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+header h2 {
+	font-family: 'Archivo Narrow', sans-serif;
+	text-align: center;
+	color: white;
+
+}
+
+header {
+    height: 430px;
+    background-image: url("images/nyc.jpg");
+    background-size: cover;
+    background-position: center;
+    padding-top: 50px;
+}
+
+.section1 img {
+    float: right;
+    margin-left: 40px;
+    margin-right: 1px;
+    margin-bottom: 30px;
+}
+
+.interior {
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+	width: 961px;
+	font-weight: bold;
+	font-size: 18px;
+	color: white;
+}
+
+section h1 {
+	font-family: 'Archivo Narrow', sans-serif;
+	text-align: center;
+	font-size: 40px;
+	margin-bottom: 38px;
+	letter-spacing: .75px;
+}
+
+.section1 {
+	font-family: 'Archivo Narrow', sans-serif;
+	line-height: 25px;
+	background-color:  #063864;
+	height: 715px;
+}
+
+.object {
+	font-family: 'Archivo Narrow', sans-serif;
+    display: inline-block;
+    width: 450px;
+    height: 150px;
+    margin-right: 26px;
+    margin-bottom: 24px;
+    line-height: 25px;
+}
+
+.object img {
+	float: left;
+	margin-right: 12px;
+}
+
+.section2 h2 {
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 0px;
+	margin-bottom: 7px;
+	letter-spacing: .75px;
+}
+
+.section2 p {
+	margin-top: 0px;
+}
+
+.section2 {
+	background-color: #74B00B;
+	height: 685px;
+}
+
+.section3 h1 {
+	margin-top: 0px;
+}
+
+.section3 p {
+	font-family: 'Archivo Narrow', sans-serif;
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	line-height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+	width: 690px;
+}
+
+.section3 {
+	background-color: #FFE800;
+	padding-top: 45px;
+	height: 355px;
+}
+
+.section4 p {
+	font-family: 'Archivo Narrow', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    display: block;
+	width: 960px;
+}
