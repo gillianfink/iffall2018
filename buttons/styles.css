@@ -1,0 +1,765 @@
+body {
+	color: #333;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+#main_content {
+	margin: 40px;
+}
+
+h1 {
+	font-size: 30px;
+	margin-bottom: 40px;
+}
+
+.button_container {
+	border: 1px solid #ddd;
+	margin: 0 10px 10px 0;
+	padding: 20px;
+	width: 300px;
+	height: 300px;
+	float: left;
+	overflow: hidden;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+
+
+a#btn_spotify {
+	display: inline-block;
+	height: 50px;
+	box-sizing: border-box;
+	border-radius: 25px;
+	margin: auto;
+	margin-top: 100px;
+	padding: 10px 40px 0 40px;
+	background-color: #2ebd59;
+	border: 2px solid #2ebd59;
+	color: #fff;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a#btn_spotify:hover {
+	background-color: #fff;
+	border: 2px solid #000;
+	color: #000;
+}
+
+
+a#btn_twitter {
+	display: inline-block;
+	height: 40px;
+	box-sizing: border-box;
+	border-radius: 4px;
+	margin: auto;
+	margin-top: 105px;
+	padding: 10px 30px 0 30px;
+	background-color: #56cdf1;
+	color: #fff;
+	font-size: 18px;
+	font-family: 'Arial', sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a#btn_twitter:hover {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+	background: #2ebfec; /* Old browsers */
+	background: -moz-linear-gradient(top,  #2ebfec 0%, #28a5cb 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2ebfec), color-stop(100%,#28a5cb)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #2ebfec 0%,#28a5cb 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=0 ); /* IE6-9 */
+}
+
+
+a#btn_amazon {
+	display: block;
+	width: 100px;
+	height: 100px;
+	box-sizing: border-box;
+	border-radius: 50px;
+	margin: auto;
+	margin-top: 75px;
+	padding-top: 8px;
+	background-color: #232f3e;
+	color: #fff;
+	text-align: center;
+	font-size: 60px;
+}
+
+a#btn_amazon:hover {
+	background-color: #fc9a18;
+}
+
+
+a#btn_indiegogo {
+	display: inline-block;
+	margin:auto;
+	margin-top: 100px;
+	padding: 8px 16px;
+	background-color: #fff;
+	color: #eb1478;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: -2px;
+}
+
+a#btn_indiegogo:hover {
+	color: #fff;
+	background-color: #eb1478;
+}
+
+a#btn_cartoonnetwork {
+	display: inline-block;
+	margin:auto;
+	margin-top: 100px;
+	padding-top: 16px;
+	padding-bottom: 9px;
+	background-color: black;
+	color: white;
+	font-family: 'Luckiest Guy', cursive;
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 3px;
+}
+
+a#btn_cartoonnetwork:hover {
+	color: black;
+	background-color: white;
+}
+
+a#btn_lyft {
+	display: inline-block;
+	height: 40px;
+	box-sizing: border-box;
+	border-radius: 15px;
+	margin: auto;
+	margin-top: 105px;
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: white;
+	color: #DD00FF;
+	font-size: 18px;
+	font-family: 'Paytone One', sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+	border: 2px solid #DD00FF;
+}
+
+a#btn_lyft:hover {
+	color: white;
+	background-color: #DD00FF;
+}
+
+a#btn_colorrun {
+	display: inline-block;
+	height: 40px;
+	box-sizing: border-box;
+	border-radius: 16px;
+	margin: auto;
+	margin-top: 105px;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	background-color: white;
+	color: black;
+	font-size: 18px;
+	font-family: 'Scada', sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: 0.5s;
+
+}
+
+a#btn_colorrun:hover {
+	color: white;
+	background: #fc32bc; /* Old browsers */
+	background: -moz-linear-gradient(left, #fc32bc 1%, #ffff30 50%, #59a8e5 99%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, #fc32bc 1%,#ffff30 50%,#59a8e5 99%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, #fc32bc 1%,#ffff30 50%,#59a8e5 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fc32bc', endColorstr='#59a8e5',GradientType=1 ); /* IE6-9 */
+	border: none;
+}
+
+a#btn_npr {
+	display: inline-block;
+	height: 40px;
+	box-sizing: border-box;
+	margin: auto;
+	margin-top: 105px;
+	padding-top: 10px;
+	padding-left: 15px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	background-color: white;
+	color: black;
+	font-size: 18px;
+	font-family: Arial;
+	font-weight: bold;
+	text-decoration: none;
+	letter-spacing: 20px;
+	border: 2px solid black;
+}
+
+a#btn_npr:hover {
+	color: white;
+	border: none;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff3030+30,ff3030+33,ff3030+33,000000+34,000000+68,2cace8+69 */
+	background: #ff3030; /* Old browsers */
+	background: -moz-linear-gradient(left, #ff3030 30%, #ff3030 33%, #ff3030 33%, #000000 34%, #000000 68%, #2cace8 69%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, #ff3030 30%,#ff3030 33%,#ff3030 33%,#000000 34%,#000000 68%,#2cace8 69%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, #ff3030 30%,#ff3030 33%,#ff3030 33%,#000000 34%,#000000 68%,#2cace8 69%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3030', endColorstr='#2cace8',GradientType=1 ); /* IE6-9 */
+}
+
+a#btn_ofa {
+	display: inline-block;
+	height: 40px;
+	box-sizing: border-box;
+	border-radius: 15px;
+	margin: auto;
+	margin-top: 105px;
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: white;
+	color: white;
+	font-size: 18px;
+	font-family: 'Paytone One', sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+	background-color: #00D6FF;
+	transition: 0.5s;
+}
+
+a#btn_ofa:hover {
+	color: white;
+	background-color: #A200FF;
+}	
+
+a#btn_mollyjogger {
+	display: inline-block;
+	height: 40px;
+	box-sizing: border-box;
+	border-radius: 15px;
+	margin: auto;
+	margin-top: 105px;
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: #82F153;
+	font-size: 18px;
+	font-family: 'Homemade Apple', cursive;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a#btn_mollyjogger:hover {
+	color: #447C2D;
+}
+
+a#btn_army {
+	display: inline-block;
+	height: 40px;
+	box-sizing: border-box;
+	margin: auto;
+	margin-top: 105px;
+	padding-top: 2px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: #DFBC12;
+	font-size: 24px;
+	font-family: 'Anton', sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+	letter-spacing: 2px;
+	background-color: #2B4B28;
+	border: 2px solid #DFBC12;
+}
+
+a#btn_army:hover {
+	opacity: 0.7
+}
+
+a#btn_garden {
+	display: inline-block;
+	height: 40px;
+	box-sizing: border-box;
+	margin: auto;
+	margin-top: 105px;
+	padding-top: 2px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: #60029A;
+	font-size: 15px;
+	font-family: Georgia;
+	font-weight: bold;
+	text-decoration: none;
+	letter-spacing: 3px;
+	transition: 0.5s;
+	text-transform: uppercase;
+}
+
+a#btn_garden:hover {
+	opacity: 0.3
+}
+
+a#btn_foreflight {
+	display: inline-block;
+	height: 40px;
+	box-sizing: border-box;
+	border-radius: 5px;
+	margin: auto;
+	margin-top: 105px;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: #CCEBF3;
+	color: black;
+	font-size: 18px;
+	font-family: Arial;
+	font-weight: bold;
+	text-shadow: -3px 0px 18px rgba(22, 31, 255, 1);
+	text-decoration: none;
+	transition: 0.5s;
+}
+
+a#btn_foreflight:hover {
+	text-shadow: none;
+}	
+
+a#btn_hulkhogan {
+	display: block;
+	width: 100px;
+	height: 100px;
+	box-sizing: border-box;
+	border-radius: 50px;
+	margin: auto;
+	margin-top: 75px;
+	padding-top: 20px;
+	padding-bottom: 0px;
+	background-color: black;
+	color: white;
+	font-size: 32px;
+	font-family: 'Permanent Marker', cursive;
+	font-weight: bold;
+	text-decoration: none;
+	line-height: 25px;
+	text-align: center;
+	transform: rotate(-10deg);
+}
+
+a#btn_hulkhogan:hover {
+	background-color: #D65900;
+	animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  	transform: translate3d(0, 0, 0);
+  	backface-visibility: hidden;
+ 	perspective: 1000px;
+ 	transition: 0.3s;
+ 	transform: rotate(-10deg);
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+a#btn_tuckerallen {
+	display: inline-block;
+	height: 40px;
+	box-sizing: border-box;
+	border-radius: 5px;
+	margin: auto;
+	margin-top: 105px;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: black;
+	font-size: 18px;
+	font-family: Georgia;
+	text-shadow: none;
+	text-decoration: none;
+	transition: 0.2s;
+}
+
+a#btn_tuckerallen:hover {
+	text-shadow: 4px 1px 4px rgba(139, 132, 130, 1);
+}
+
+a#btn_moo {
+	display: inline-block;
+	height: 40px;
+	box-sizing: border-box;
+	border-radius: 5px;
+	margin: auto;
+	margin-top: 105px;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: #0FB06E;
+	font-size: 18px;
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	transition: 0.4s;
+}
+
+a#btn_moo:hover {
+	background-color: #0FB06E;
+	color: white;
+}
+
+a#btn_velocity {
+	display: inline-block;
+	height: 40px;
+	box-sizing: border-box;
+	border-radius: 5px;
+	margin: auto;
+	margin-top: 105px;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: white;
+	font-size: 18px;
+	font-family: 'Fahkwang', sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 2px;
+	background-color: grey;
+}
+
+a#btn_velocity:hover {
+	background-color: #0FB06E;
+	color: white;
+	http://colorzilla.com/gradient-editor/#7d7e7d+0,0e0e0e+100;Black+3D */
+	background: #7d7e7d; /* Old browsers */
+	background: -moz-linear-gradient(top, #7d7e7d 0%, #0e0e0e 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #7d7e7d 0%,#0e0e0e 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #7d7e7d 0%,#0e0e0e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 ); /* IE6-9 */
+}
+
+a#btn_oldnavy {
+	display: inline-block;
+	height: 40px;
+	box-sizing: border-box;
+	border-radius: 3px;
+	margin: auto;
+	margin-top: 105px;
+	padding-top: 12px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: white;
+	font-size: 15px;
+	font-family: Arial;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	transition: 0.6s;
+	background-color: #151E69;
+}
+
+a#btn_oldnavy:hover {
+	border-radius: 27px;
+}
+
+a#btn_samsung {
+	display: inline-block;
+	height: 40px;
+	box-sizing: border-box;
+	border-radius: 3px;
+	margin: auto;
+	margin-top: 105px;
+	padding-top: 12px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: #2A1569;
+	font-size: 18px;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	transition: 0.6s;
+	letter-spacing: 2px;
+}
+
+a#btn_samsung:hover {
+	-webkit-transform: rotateZ(-10deg);
+    -ms-transform: rotateZ(-10deg);
+    transform: rotateZ(-10deg);
+}
+
+a#btn_harley {
+	display: inline-block;
+	height: 40px;
+	box-sizing: border-box;
+	border-radius: 3px;
+	margin: auto;
+	margin-top: 105px;
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: black;
+	font-size: 18px;
+	font-family: 'Anton', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 2px;
+}
+
+a#btn_harley:hover {
+	border: solid orange;
+}
+
+a#btn_apple {
+	display: inline-block;
+	height: 40px;
+	box-sizing: border-box;
+	border-radius: 3px;
+	margin: auto;
+	margin-top: 105px;
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: black;
+	font-size: 60px;
+	font-family: 'Anton', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 2px;
+	transition: 0.4s;
+}
+
+a#btn_apple:hover {
+	color: grey;
+}
+
+a#btn_fitbit {
+	display: inline-block;
+	height: 40px;
+	box-sizing: border-box;
+	border-radius: 18px;
+	margin: auto;
+	margin-top: 105px;
+	padding-top: 6px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: black;
+	background-color:  #68E8DC;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+	letter-spacing: 2px;
+	transition: 0.4s;
+	border: 2PX solid Black;
+}
+
+a#btn_fitbit:hover {
+	background-color: black;
+	color: #68E8DC;
+	border: 2px solid #68E8DC;
+}
+
+a#btn_stjude {
+	display: inline-block;
+	height: 40px;
+	box-sizing: border-box;
+	margin: auto;
+	margin-top: 105px;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: white;
+	background-color:  #901717;
+	font-size: 20px;
+	font-family: Georgia;
+	font-weight: bold;
+	text-decoration: none;
+	letter-spacing: 2px;
+	transition: 0.4s;
+}
+
+a#btn_stjude:hover {
+	background-color: white;
+	color:  #901717;
+	border: 2px solid  #901717;
+	padding-top: 10px;
+}
+
+a#btn_nerf {
+	display: inline-block;
+	height: 40px;
+	box-sizing: border-box;
+	margin: auto;
+	margin-top: 105px;
+	padding-top: 6px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	color: #FEE415;
+	background-color:  red;
+	font-size: 30px;
+	font-family: 'Bangers', cursive;
+	font-weight: bold;
+	text-decoration: none;
+	letter-spacing: 4px;
+	transition: 0.4s;
+}
+
+a#btn_nerf:hover {
+	-webkit-transform: rotateZ(-40deg);
+    -ms-transform: rotateZ(-40deg);
+    transform: rotateZ(-40deg);
+}
+
+a#btn_pottermore {
+	display: inline-block;
+	height: 40px;
+	box-sizing: border-box;
+	margin: auto;
+	margin-top: 105px;
+	padding-top: 6px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	color: #4D0D94  ;
+	font-size: 30px;
+	font-family: 'Homemade Apple', cursive;
+	font-weight: bold;
+	text-decoration: none;
+	transition: 0.4s;
+	-webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
+}
+
+a#btn_pottermore:hover {
+	 margin-top: 70px;
+}
+
+a#btn_hsn {
+	display: inline-block;
+	height: 40px;
+	box-sizing: border-box;
+	margin: auto;
+	border-radius: 50px;
+	background-color: #5EA2FB;
+	margin-top: 105px;
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	color: white;
+	font-size: 30px;
+	font-family: Arial;
+	font-weight: bold;
+	text-decoration: none;
+	transition: 0.4s;
+}
+
+a#btn_hsn:hover {
+	color: #276ABA;
+}
+
+a#btn_electra {
+	display: inline-block;
+	height: 40px;
+	box-sizing: border-box;
+	margin: auto;
+	border-radius: 5px;
+	margin-top: 105px;
+	padding-top: 0px;
+	padding-left: 10px;
+	padding-right: 15px;
+	padding-bottom: 10px;
+	color: #42D6E5;
+	font-size: 30px;
+	font-family: 'Yellowtail', cursive;
+	font-weight: bold;
+	text-decoration: none;
+	transition: 0.4s;
+	border: 2px solid #42D6E5  
+}
+
+a#btn_electra:hover {
+	background-color: #42D6E5;
+	color: white;
+}
+
+a#btn_newyorker {
+	display: inline-block;
+	height: 40px;
+	box-sizing: border-box;
+	margin: auto;
+	margin-top: 105px;
+	padding-top: 0px;
+	padding-left: 10px;
+	padding-right: 15px;
+	padding-bottom: 10px;
+	color: #B80000;
+	font-size: 30px;
+	font-family: 'Julius Sans One', sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+	transition: 0.6s; 
+}
+
+a#btn_newyorker:hover {
+	color: black;
+	background-color: none;
+}
+
+a#btn_ideo {
+	display: inline-block;
+	height: 40px;
+	box-sizing: border-box;
+	margin: auto;
+	margin-top: 105px;
+	padding-top: 0px;
+	padding-left: 10px;
+	padding-right: 15px;
+	padding-bottom: 10px;
+	color: #F47103;
+	font-size: 30px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+	transition: 0.6s; 
+}
+
+a#btn_ideo:hover {
+	color: #1ED5C5;
+	background-color: none;
+}
