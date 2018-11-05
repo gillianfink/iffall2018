@@ -1,0 +1,123 @@
+body {
+	font-family: Georgia;
+	font-size: 35px;
+	position: relative;
+	color: white;
+	line-height: 45px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+a {
+	display: block;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    text-decoration: none;
+    color: white;
+}
+
+@media only screen and (max-width: 640px) {
+	body {
+		background-image: linear-gradient(rgb(183, 0, 95, .6),
+		transparent 25%, transparent 50%, black), url(rebecca1.jpg);
+		background-size: 388%;
+	}
+	p {
+		position: fixed;
+		bottom: 0;
+		padding-right: 25%;
+		padding-left: 30px;
+	}
+
+	.show {
+		text-transform: uppercase;
+		font-family: Arial;
+		font-weight: bold;
+		font-size: 23px;
+		padding-top: 15px;
+		padding-bottom: 0;
+		padding-left: 25px;
+	}
+
+	.name {
+		font-style: italic;
+		padding-top: 7px;
+		padding-left: 25px;
+		font-size: 23px;
+		line-height: 0;
+		color: white;
+	}
+}
+
+@media only screen and (min-width: 640px) {
+	body {
+		background-image: linear-gradient(rgb(183, 0, 95, .55), 
+		transparent 20%, transparent 40%, black), url(rebecca1.jpg);
+	}
+	p {
+		font-size: 50px;
+		line-height: 60px;
+		position: fixed;
+		bottom: 0;
+		padding-right: 30%;
+		padding-left: 40px;
+	}
+
+	.show {
+		text-transform: uppercase;
+		font-family: Arial;
+		font-weight: bold;
+		font-size: 26px;
+		padding-top: 20px;
+		padding-bottom: 0;
+		padding-left: 40px;
+	}
+
+	.name {
+		font-style: italic;
+		padding-top: 10px;
+		padding-left: 40px;
+		font-size: 25px;
+		line-height: 0;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	body {
+		background-image: linear-gradient(rgb(183, 0, 95, .45), 
+		transparent 23%, transparent 35%, black), url(rebecca1.jpg);
+		background-size: 140%
+	}
+	p {
+		font-size: 55px;
+		line-height: 70px;
+		position: fixed;
+		bottom: 0;
+		padding-right: 35%;
+		padding-left: 45px;
+		margin-bottom: 40px;
+	}
+
+	.show {
+		text-transform: uppercase;
+		font-family: Arial;
+		font-weight: bold;
+		font-size: 32px;
+		padding-top: 25px;
+		padding-bottom: 0;
+		padding-left: 45px;
+	}
+
+	.name {
+		font-style: italic;
+		padding-top: 15px;
+		padding-left: 45px;
+		font-size: 30px;
+		line-height: 0;
+	}
+}
