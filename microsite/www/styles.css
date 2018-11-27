@@ -1,0 +1,308 @@
+body {
+	margin: 0px;
+}
+
+.nav {
+	list-style-type: none;
+    text-align: center; 
+    color: white;
+    padding: 0;
+    margin: 0;
+    background-color: #00D8FF;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.nav li {
+	display: inline-block;
+    font-size: 16px;
+    color: white;
+    font-family: Avenir;
+    font-weight: 500;
+    padding: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-decoration: none;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	transition: 0.3s;
+}
+
+a:hover {
+	color: #FF8F00
+}
+
+#photohead {
+	background-image: linear-gradient(rgb(0, 216, 255, 1.0),
+	transparent 55%, transparent 20%), url("image1.jpg");
+	height: 600px;
+	width: 100%;
+	background-size: 100%;
+	padding-top: 45px;
+}
+
+#overview {
+	list-style-type: none;
+    text-align: center; 
+    padding: 0;
+    padding-top: 30px;
+    margin: 0;
+    width: 100%;
+    position: relative;
+}
+
+#button2 {
+	height: 52px;
+	position: absolute;
+}
+
+
+h1 {
+	font-size: 100px;
+	font-family: Avenir;
+	font-weight: 900;
+	float: right;
+	color: white;
+	padding-right: 90px;
+	line-height: 100px;
+	text-align: right;
+}
+
+#overview li{
+	display: inline-block;
+    font-size: 16px;
+    font-family: Avenir;
+    font-weight: 500;
+    color: #00D8FF;
+    padding: 40px;
+    width: 300px;
+}
+
+h2 {
+	font-size: 70px;
+	font-family: Avenir;
+	font-weight: 900;
+	color: white;
+	padding-left: 50px;
+	margin-top: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #FF8F00;
+	margin-bottom: 0px;
+}
+
+.row {
+	display: flex;
+	height: 800px;
+}
+
+.racing-boats-image {
+	background-image: url(image2.jpg);
+	width: 50%;
+}
+
+.racing-boats-text {
+	font-size: 40px;
+    font-family: Avenir;
+    font-weight: 500;
+    color: #00D8FF;
+    margin-top: 200px;
+    padding-right: 30px;
+    padding-left: 30px;
+    width: 50%;
+}
+.regatta-image{
+	background-image: url(image3.jpg);
+	height: 1000px;
+	margin-top: 0px;
+	width: 40%;
+}
+
+.regatta-text{
+	font-size: 35px;
+    font-family: Avenir;
+    font-weight: 500;
+    color: #00D8FF;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 150px;
+    width: 60%
+}
+
+.competitions-image {
+	background-image: url(match.jpg);
+	background-size: 110%;
+	width: 300px;
+	margin-top: 0px;
+	width: 30%
+}
+
+.competitions-text {
+	width: 65%;
+	font-size: 22px;
+    font-family: Avenir;
+    font-weight: 500;
+    color: #00D8FF;
+    padding-left: 35px;
+}
+
+.courses-image {
+	background-image: url(buoy.jpg);
+	background-size: 115%;
+	height: 750px;
+	width: 45%;
+}
+
+.courses-text {
+	width: 55%;
+	font-size: 25px;
+    font-family: Avenir;
+    font-weight: 500;
+    color: #00D8FF;
+    padding-left: 35px;
+    padding-right: 30px;
+    padding-top: 30px;
+    height: 650px;
+}
+
+#regatta {
+	margin-top: 0px;
+}
+
+#regatta h2 {
+	margin-top: 0px;
+}
+
+.img3 {
+	width: 30%;
+	float: right;
+}
+
+#competitions h2 {
+	margin-top: 200px;
+}
+
+#content {
+	margin-top: 30px;
+}
+
+#courses h2 {
+	margin-top: 0px;
+}
+
+#courses .row {
+	height: 720px;
+}
+
+#sources h2 {
+	font-size: 20px;
+	font-weight: normal;
+}
+@media only screen and (min-width: 1300px) {
+.racing-boats-image {
+	background-image: url(image2.jpg);
+	background-size: 105%;
+	flex: 1;
+}
+}
+
+@media only screen and (max-width: 640px) {
+.photohead {
+	background-image: linear-gradient(rgb(0, 216, 255, 1.0),
+	transparent 55%, transparent 20%), url("image1phone.jpg");
+	height: 400px;
+	width: 100%;
+	background-size: 100%;
+	padding-top: 150px;
+}
+h1 {
+	font-size: 40px;
+	font-family: Avenir;
+	font-weight: 900;
+	float: right;
+	color: white;
+	padding-right: 20px;
+	line-height: 40px;
+	text-align: right;
+	padding-top: none;
+	margin: 0px;
+}
+h2 {
+	font-size: 30px;
+	font-family: Avenir;
+	font-weight: 900;
+	color: white;
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #FF8F00;
+	margin-bottom: 0px;
+}
+.img2 {
+	width: 100%;
+}
+
+#racingboats {
+	height: 920px;
+}
+
+.racingboatsp {
+	font-size: 24px;
+    font-family: Avenir;
+    font-weight: 500;
+    color: #00D8FF;
+    float: left;
+    width: 87%;
+    margin-top: 0px;
+    padding-top: 20px;
+    padding-right: 0px;
+    padding-left: 25px;
+}
+#overview li{
+	display: inline-block;
+    font-size: 18px;
+    font-family: Avenir;
+    font-weight: 500;
+    color: #00D8FF;
+    padding: 30px;
+    width: 300px;
+}
+
+.regatta {
+	margin-top: 0px;
+}
+
+.regattap {
+	font-size: 20px;
+    font-family: Avenir;
+    font-weight: 500;
+    color: #00D8FF;
+    width: 85%;
+    padding-left: 25px;
+    padding-top: 710px;
+}
+
+.img3 {
+	width: 100%;
+	float: right;
+}
+
+#competitions h2 {
+	margin-top: 35px;
+}
+
+#competitions p {
+	font-size: 20px;
+    font-family: Avenir;
+    font-weight: 500;
+    color: #00D8FF;
+    width: 85%;
+    padding-left: 0px;
+}
+
+}
+
