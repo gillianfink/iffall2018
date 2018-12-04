@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Competitive Sailing</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		
+		$(document).ready(function() {
+			function cyclePhotos() {
+
+				if( $(".bannerphoto.active").hasClass("last") ){
+
+					$(".bannerphoto.active").toggleClass("active");
+					$(".bannerphoto").first().toggleClass("active");
+
+				} else {
+
+					$(".bannerphoto.active").toggleClass("active").next().toggleClass("active");
+
+			}
+
+		}
+
+		setInterval(function(){ cyclePhotos(); }, 3000);
+
+	});
+	</script>
+
+</head>
+<ul class="nav">
+
+		<li><a href="#photohead">Home</a></li>
+		<li><a href="#racingboatsanchor">Racing Boats</a></li>
+		<li><a href="#regattaanchor">Regatta</a></li>
+		<li><a href="#competitionsanchor">Competitions</a></li>
+		<li><a href="#coursesanchor">Courses</a></li>
+	</ul>
+	<div id="photohead">
+		<div class="gradientoverlay"></div>
+		<div class="bannerphoto active" id="photo1"></div>
+		<div class="bannerphoto" id="photo2"></div>
+		<div class="bannerphoto last" id="photo3"></div>
+	<h1>COMPETITIVE<br/>SAILING</h1>
+	</div>
+<body>
+	<ul id="overview">
+			<li>Sailing as a sport involves a variety of competitive sailing formats that are sanctioned through various sailing federations and yacht clubs.</li>
+			<li>Racing disciplines include matches within a fleet of sailing craft, between a pair thereof or among teams.</li>
+			<li>Racing formats include both closed courses and point-to-point contests; they may be in sheltered waters, coast-wise or on the open ocean.</li>
+	</ul>
+
+	<div id="racingboats">
+		<a name="racingboatsanchor" class="anchor"></a>
+		<h2>RACING BOATS</h2>
+		<div class="row">
+			<div class="column1 racing-boats-image"></div>
+			<div class="column2 racing-boats-text">
+				<p>There is a broad variety of kinds of races and sailboats used for racing from large yacht to dinghy racing. All kinds of boats are used for racing, including small dinghies, catamarans, boats designed primarily for cruising, and purpose-built race boats.</p>
+			</div>
+		</div>
+	</div>
+
+	<div id="regatta">
+		<a name="regattaanchor" class="anchor"></a>
+	<h2>REGATTA</h2>
+	<div class="row reverse">
+		<div class="column1 regatta-image"></div>
+		<div class="column2 regatta-text"><p>On water, a sailing competition among multiple vessels is a regatta, which usually consists of multiple individual races, where the boat crew that performs best in over the series of races is the overall winner. Sailing race events are typically held for a single class and usually last more than one day. Regattas may be hosted by a yacht club, sailing association, town or school as in the case of the UK's National School Sailing Association and Interscholastic Sailing Association regattas or Intercollegiate Sailing Association regattas.</p></div>
+		
+	</div>
+	</div>
+
+	<div id="competitions">
+		<a name="competitionsanchor" class="anchor"></a>
+	<h2>COMPETITIONS</h2>
+<div class="row">
+	<div class="column1 competitions-image"></div>
+	<div class="column2 competitions-text">
+	<div id="content">
+	<p id="subheader">FLEET RACING</p>
+	<p>Fleet races can have anywhere from four boats to hundreds of boats in a race. A regatta must have at least three races to be counted. Each boat's place in each race is added to compile a final score. The lowest scorer wins.</p><br>
+	<p class="subheader">MATCH RACING</p>
+	<p>In match racing only two boats compete against each other. The best known competition of this type is the America's Cup. The tactics involved in match racing are different from those of other races, because the objective is merely to arrive at the finish line before the opponent, which is not necessarily as fast as possible. The tactics involved at the start are also special.</p><br>
+	<p class="subheader">TEAM RACING</p>
+	<p>Team racing is most often between two teams of three boats each. It involves similar technique to match racing but has the added dimension that it is the overall scoring of the race that matters. In three on three team racing, this means that the team that scores ten or less points wins.</p>
+	</div>
+	</div>
+	</div>
+</div>
+
+	<div id="courses">
+		<a name="coursesanchor" class="anchor"></a>
+	<h2>COURSES</h2>
+<div class="row reverse">
+	<div class="column1 courses-image"></div>
+	<div class="column2 courses-text">
+		<p>Harbor or buoy races are conducted in protected waters, and are
+quite short, usually taking anywhere from a few minutes to a few hours. All sorts of sailing craft are used for these races, including keel-boats of all sizes, as well as dinghies, trailer sailors, catamarans, skiffs, sailboards, and other small craft.</p>
+	<p>This kind of race is most commonly run over one or more laps of a
+triangular course marked by a number of buoys.</p>
+	<img src="triangle.jpg">
+
+
+</div>
+
+	</div>
+</div>
+
+<div id="sources">
+	<h2>Designer: Gillian Fink <br> Creative Director: Andrew Rochat <br> Source: Wikipedia</h2>
+	</div>
+</body>
+</html>
